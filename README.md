@@ -15,5 +15,5 @@ This is an example of running NAS on [NNI](https://github.com/microsoft/nni) usi
 > 2. RUN NAS
 
 - `cd NAS/data && . download.sh`
-- `tar xzf cifar-10-python.tar.gz && mv cifar-batches cifar10`
+- `tar xzf cifar-10-python.tar.gz && mv cifar-10-batches-py cifar10`
 - `cd .. && nnictl create --config config.yml`
